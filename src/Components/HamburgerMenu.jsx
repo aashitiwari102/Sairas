@@ -8,7 +8,7 @@ const HamburgerMenu = () => {
     <div className="relative">
       {/* Hamburger Button (Only visible on mobile) */}
       <button
-        className="p-3 text-white bg-blue-700 rounded-md z-50 fixed top-4 left-4 md:hidden"
+        className="p-3 text-pink-400 bg-blue-700 rounded-md z-50 fixed top-4 left-4 md:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
